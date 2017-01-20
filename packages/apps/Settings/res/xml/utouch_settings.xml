@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Max Bäumler (be_mler_) -->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/utouch_settings_title"
+        xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+
+        <ListPreference
+            android:key="utouch_settings_left_swipe"
+            android:dialogTitle="@string/utouch_settings_left_swipe"
+            android:title="@string/utouch_settings_left_swipe"
+            android:entries="@array/hardware_keys_action_entries"
+            android:entryValues="@array/hardware_keys_action_values"
+            android:persistent="false" />
+
+        <ListPreference
+            android:key="utouch_settings_right_swipe"
+            android:dialogTitle="@string/utouch_settings_right_swipe"
+            android:title="@string/utouch_settings_right_swipe"
+            android:entries="@array/hardware_keys_action_entries"
+            android:entryValues="@array/hardware_keys_action_values"
+            android:persistent="false" />
+
+        <ListPreference
+            android:key="hardware_keys_app_switch_press"
+            android:dialogTitle="@string/utouch_settings_back_long_tap"
+            android:title="@string/utouch_settings_back_long_tap"
+            android:entries="@array/hardware_keys_action_entries"
+            android:entryValues="@array/hardware_keys_action_values"
+            android:persistent="false" />
+
+        <ListPreference
+            android:key="hardware_keys_home_double_tap"
+            android:dialogTitle="@string/utouch_settings_home_double_press"
+            android:title="@string/utouch_settings_home_double_press"
+            android:entries="@array/hardware_keys_action_entries"
+            android:entryValues="@array/hardware_keys_action_values"
+            android:persistent="false" />
+
+        <Preference android:key="utouch_settings_info"
+            style="?android:attr/preferenceInformationStyle"
+            android:title="@string/utouch_settings_info_title"
+            android:summary="@string/utouch_settings_info_summary"
+            android:persistent="false" />
+</PreferenceScreen>

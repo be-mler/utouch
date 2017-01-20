@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2015 AICP
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Aicp Settings -->
+    <string name="aicp_settings_title">AICP Extras</string>
+    <string name="aicp_settings_external_title">AICP Extern</string>
+    <string name="header_category_personalization">Personalisierung</string>
+    <string name="supersu_title">SuperSU</string>
+    <string name="reset">Zurücksetzen</string>
+    <string name="attention">Achtung</string>
+    <string name="easter_egg_snack">"A. I. C. P."</string>
+
+    <string name="general_options_title">Allgemein</string>
+
+    <string name="allow_lights_title">Beleuchtung an während \"Nicht stören\"-Modus</string>
+
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Farbwähler</string>
+    <string name="press_color_to_apply">Wähle unten eine Farbe, um diese anzuwenden</string>
+    <!-- <string name="arrow_right" translatable="false">→</string>
+    <string name="arrow_down" translatable="false">↓</string> -->
+    <string name="hex">Hex:</string>
+    <string name="hex_hint">#ff000000</string>
+    <string name="set">Setzen</string>
+    <string name="color_default">Standard</string>
+
+    <!-- Media art -->
+    <string name="media_art_title">Medien-Cover</string>
+    <string name="media_art_summary">Aktiviere die Darstellung von Medien-Covern auf dem Sperrbildschirm</string>
+
+    <!-- Sound & Notification Settings -->
+    <!-- Linked / unlinked notification volume -->
+    <string name="link_volume_option_title">Verbinde Lautstärke für Klingelton und Benachrichtigungen</string>
+    <string name="notification_volume_option_title">Lautstärke für Benachrichtigung</string>
+    <string name="ring_notification_volume_option_title">Lautstärke für Klingelton und Benachrichtigung</string>
+
+    <!-- Hold back to kill timeout -->
+    <string name="hold_back_to_kill_timeout_title">Zeit bis App über Zurück-Taste beendet wird</string>
+    <string name="default_string">Standard</string>
+
+    <!-- Volume Steps -->
+    <string name="volume_steps_title">Lautstärke-Schritte</string>
+    <string name="volume_steps_alarm_title">Lautstärke-Schritte: Wecker</string>
+    <string name="volume_steps_dtmf_title">Lautstärke-Schritte: MFV-Töne</string>
+    <string name="volume_steps_music_title">Lautstärke-Schritte: Musik</string>
+    <string name="volume_steps_notification_title">Lautstärke-Schritte: Benachrichtigung</string>
+    <string name="volume_steps_ring_title">Lautstärke-Schritte: Klingelton</string>
+    <string name="volume_steps_system_title">Lautstärke-Schritte: System</string>
+    <string name="volume_steps_voice_call_title">Lautstärke-Schritte: Sprachanruf</string>
+    <string name="volume_steps_reset">Zurücksetzen</string>
+    <string name="volume_steps_60">60</string>
+    <string name="volume_steps_45">45</string>
+    <string name="volume_steps_30">30</string>
+    <string name="volume_steps_15">15</string>
+    <string name="volume_steps_7">7</string>
+    <string name="volume_steps_5">5</string>
+
+    <!-- Navigation Bar -->
+    <string name="navigation_bar_dimensions_reset_message">Alle Größenanpassungen auf Standard zurücksetzen?</string>
+    <string name="navigation_bar_dimensions_title"><b>Größe der Navigationsleiste</b></string>
+    <string name="navigation_bar_dimensions_title_summary">Größenänderung der Navigationsleiste</string>
+    <string name="navigation_bar_height_title">Höhe der Navigationsleiste</string>
+    <string name="navigation_bar_height_summary">Höhe der Navigationsleiste im Hochformat (Portrait)</string>
+    <string name="navigation_bar_height_landscape_title">Höhe der Navigationsleiste (Landscape)</string>
+    <string name="navigation_bar_height_landscape_summary">Höhe der Navigationsleiste im Querformat (Landscape).</string>
+    <string name="navigation_bar_width_title">Breite der Navigationsleiste</string>
+    <string name="navigation_bar_width_summary">Breite der Navigationsleiste, wenn sie auf der Seite des Displays ist (Querformat)</string>
+    <string name="navigation_bar_size_48_dp_default">48 dp (Standard)</string>
+    <string name="navigation_bar_size_44_dp">44 dp</string>
+    <string name="navigation_bar_size_42_dp_default">42 dp (Standard)</string>
+    <string name="navigation_bar_size_42_dp">42 dp</string>
+    <string name="navigation_bar_size_40_dp">40 dp</string>
+    <string name="navigation_bar_size_36_dp">36 dp</string>
+    <string name="navigation_bar_size_30_dp">30 dp</string>
+    <string name="navigation_bar_size_24_dp">24 dp</string>
+    <string name="navigation_bar_size_0_dp">0 dp (Aus)</string>
+    <string name="nav_bar_title">Navigationsleiste</string>
+    <string name="navbar_enable_bar_title">Tasten der Navigationsleiste</string>
+    <string name="navbar_enable_bar_summary">Aktiviere On-Screen Tasten für die Navigationsleiste</string>
+
+    <!-- Navigation bar button color -->
+    <string name="navbar_button_tint_title">Farbton Navigationstasten</string>
+    <string name="navbar_button_tint_switch_title">Navigationsleisten-Tasten einfärben</string>
+
+    <!-- Slim lockscreen shortcuts -->
+    <string name="shortcut_action_none">Keiner</string>
+    <string name="shortcut_action_longpress">Lange Drücken:</string>
+    <string name="shortcut_action_select_action_longpress">Aktion bei langem Druck:</string>
+    <string name="shortcut_action_select_action">Wähle Aktion:</string>
+    <string name="shortcut_action_select_action_newaction">Wähle neue Aktion:</string>
+    <string name="shortcut_action_reset">Zurücksetzen</string>
+    <string name="shortcut_action_add">Hinzufügen</string>
+    <string name="shortcut_action_reset_message">Alle Einträge auf Standard zurücksetzen?</string>
+    <string name="shortcut_action_max">Die Maximalgröße für Einträge wurde erreicht</string>
+    <string name="shortcut_action_warning">Warnung</string>
+    <string name="shortcut_action_warning_message">Es ist nicht möglich den letzten Eintrag zu löschen</string>
+    <string name="shortcut_action_disable_message">Lösche\nFüge einen Eintrag hinzu, um dieses Feature zu aktivieren</string>
+    <string name="shortcut_image_not_valid">Die gewählte App hat kein gültiges Symbol oder erlaubt keinen Bildzuschnitt. Wähle eine andere App.</string>
+    <string name="shortcut_duplicate_entry">Die gewählte Aktion kann nicht zweimal hinzugefügt werden</string>
+    <string name="shortcut_action_help_shortcut">Verknüpfung</string>
+    <string name="shortcut_action_help_button">Taste</string>
+    <string name="shortcut_action_help_app">App</string>
+    <string name="shortcut_action_help_icon">, während die Auswahl des Symbols die Anpassungsoptionen aufruft</string>
+    <string name="shortcut_action_help_main">Um eine %1$s hinzuzufügen, wähle das \"Plus\" Symbol. Wenn die %1$s hinzugefügt wurde, wird die Auswahl der Reihe das Ziel auswechseln%2$s\n\nUm eine %1$s zu entfernen, wische horizontal über die Reihe von links oder rechts. Verschiebe eine %1$s in der Liste durch vertikales Ziehen am Ankerpunkt auf der linken Seite.\n\nZum Säubern oder um auf Standard zurückzusetzen, wähle das \"Zurücksetzen\" Symbol.</string>
+    <string name="shortcut_action_help_delete_last_entry">Das Entfernen jeder %1$s von der Liste deaktiviert dieses Feature komplett.</string>
+    <string name="shortcut_action_help_pie_second_layer_delete_last_entry">Das Entfernen jeder %1$s von der Liste deaktiviert die zweite PIE Ebene komplett.</string>
+    <string name="shortcuts_applications">Anwendungen</string>
+    <string name="shortcuts_select_custom_app_title">Wähle spezifische Anwendung</string>
+    <string name="shortcuts_icon_picker_type">Wähle Symboltyp:</string>
+    <string name="shortcuts_icon_default">Original</string>
+    <string name="shortcuts_icon_presets">System Symbole</string>
+    <string name="shortcuts_icon_custom">Galerie</string>
+    <string name="shortcuts_icon_picker_choose_icon_title">Wähle Symbol</string>
+    <string name="shortcuts_icon_picker_alarm">Wecker</string>
+    <string name="shortcuts_icon_picker_andy">Andy</string>
+    <string name="shortcuts_icon_picker_battery">Akku</string>
+    <string name="shortcuts_icon_picker_browser">Browser</string>
+    <string name="shortcuts_icon_picker_calendar">Kalender</string>
+    <string name="shortcuts_icon_picker_camera">Kamera</string>
+    <string name="shortcuts_icon_picker_cloud">Cloud</string>
+    <string name="shortcuts_icon_picker_contact">Kontakt</string>
+    <string name="shortcuts_icon_picker_directdial">Direktwahl</string>
+    <string name="shortcuts_icon_picker_directmessage">Sofortnachricht</string>
+    <string name="shortcuts_icon_picker_drive">Drive</string>
+    <string name="shortcuts_icon_picker_dropbox">Dropbox</string>
+    <string name="shortcuts_icon_picker_email">Email</string>
+    <string name="shortcuts_icon_picker_email2">Alternative Email</string>
+    <string name="shortcuts_icon_picker_evernote">Evernote</string>
+    <string name="shortcuts_icon_picker_facebook">Facebook</string>
+    <string name="shortcuts_icon_picker_favorite">Favorit</string>
+    <string name="shortcuts_icon_picker_file_browser">Dateimanager</string>
+    <string name="shortcuts_icon_picker_file_browser2">Alternativer Dateimanager</string>
+    <string name="shortcuts_icon_picker_fitness">Fitness</string>
+    <string name="shortcuts_icon_picker_gallery">Galerie</string>
+    <string name="shortcuts_icon_picker_gears">Gears</string>
+    <string name="shortcuts_icon_picker_google_small">Google</string>
+    <string name="shortcuts_icon_picker_gplus">Google Plus</string>
+    <string name="shortcuts_icon_picker_gtalk">Hangouts</string>
+    <string name="shortcuts_icon_picker_help">Hilfe</string>
+    <string name="shortcuts_icon_picker_joystick">Joystick</string>
+    <string name="shortcuts_icon_picker_key">Schlüssel/Konten</string>
+    <string name="shortcuts_icon_picker_laptop">Laptop</string>
+    <string name="shortcuts_icon_picker_notes">Notizen</string>
+    <string name="shortcuts_icon_picker_luggage">Reisen</string>
+    <string name="shortcuts_icon_picker_maps">Maps</string>
+    <string name="shortcuts_icon_picker_market">Markt</string>
+    <string name="shortcuts_icon_picker_movie">Filme</string>
+    <string name="shortcuts_icon_picker_music">Musik</string>
+    <string name="shortcuts_icon_picker_nav">Navigation</string>
+    <string name="shortcuts_icon_picker_phone">Telefon</string>
+    <string name="shortcuts_icon_picker_package">Paket</string>
+    <string name="shortcuts_icon_picker_pinterest">Pinterest</string>
+    <string name="shortcuts_icon_picker_play">Play</string>
+    <string name="shortcuts_icon_picker_pocket">Pocket</string>
+    <string name="shortcuts_icon_picker_quicksettings">Schnelleinstellungen</string>
+    <string name="shortcuts_icon_picker_rss">RSS-Feed</string>
+    <string name="shortcuts_icon_picker_sdcard">SD-Karte</string>
+    <string name="shortcuts_icon_picker_search">Suche</string>
+    <string name="shortcuts_icon_picker_sms">SMS</string>
+    <string name="shortcuts_icon_picker_tasks">Aufgaben</string>
+    <string name="shortcuts_icon_picker_terminal">Terminal</string>
+    <string name="shortcuts_icon_picker_transit">Transit</string>
+    <string name="shortcuts_icon_picker_tv">TV</string>
+    <string name="shortcuts_icon_picker_twitter">Twitter</string>
+    <string name="shortcuts_icon_picker_unlock">Entsperren</string>
+    <string name="reset_message">Alle Einträge auf Standard zurücksetzen?</string>
+    <string name="lockscreen_shortcuts_title">Verknüpfungen auf Displaymitte</string>
+    <string name="lockscreen_shortcuts_summary">Ansehen oder Ändern von eigenen Sperrbildschirmverknüpfungen</string>
+    <string name="lockscreen_shorcuts_launch_type_title">Auswahlart für Verknüpfung</string>
+    <string name="lockscreen_shortcuts_single_tap">Einmal Tippen</string>
+    <string name="lockscreen_shortcuts_double_tap">Zweimal Tippen</string>
+    <string name="lockscreen_shortcuts_longpress">Lange Drücken</string>
+    <string name="help">Hilfe</string>
+    <string name="shortcut_action_app">Eigene App</string>
+    <string name="shortcut_action_home">Startbildschirm</string>
+    <string name="shortcut_action_back">Zurück</string>
+    <string name="shortcut_action_menu">Menü</string>
+    <string name="shortcut_action_ime">Wechsle Eingabemethode</string>
+    <string name="shortcut_action_power_menu">Ein/Aus-Menü</string>
+    <string name="shortcut_action_recent">Anwendungsverlauf</string>
+    <string name="shortcut_action_power">Display aus</string>
+    <string name="shortcut_action_search">Suche in App</string>
+
+    <!-- Double tap power button camera vibration toggle -->
+    <string name="dbl_tap_vib_title">Zweimal Ein/Aus drücken für Kamera-Vibration</string>
+    <string name="dbl_tap_vib_summary">Vibrieren, wenn der Ein/Aus-Knopf zweimal gedrückt wurde.</string>
+
+    <!-- Battery Saver Settings -->
+    <!-- Disable Battery Saver Warning Color -->
+    <string name="battery_saver_color_title">Farbe der Akkustand-Warnung</string>
+    <string name="battery_saver_color_summary">Aktiviere orangefarbene Status- und Navigationsleisten, wenn die Akkustand-Warnung aktiv ist</string>
+
+    <!-- Doze options -->
+    <string name="display_category_doze_options_title">Inaktivitätsdisplay</string>
+    <string name="doze_settings_title">Erweiterte Inaktivitätsoptionen (Ambient Display)</string>
+    <string name="doze_timeout_title">Timeout für das Pulsieren bei Inaktivität</string>
+    <string name="doze_timeout_summary">Zeit, die das Display für pulsierende Benachrichtigungen anbleibt</string>
+    <string name="doze_trigger_pickup_title">Auslösung bei Aufnahme des Geräts</string>
+    <string name="doze_trigger_pickup_summary_on">Das Pulsieren bei Inaktivität wird bei Erkennung der Geräte-Aufnahme ausgelöst</string>
+    <string name="doze_trigger_pickup_summary_off">Die Aufnahme des Geräts (Sensor) wird nicht als Auslösemechanismus verwendet</string>
+    <string name="doze_trigger_sigmotion_title">Auslösung bei signifikanten Bewegungen</string>
+    <string name="doze_trigger_sigmotion_summary_on">Das Pulsieren bei Inaktivität wird bei signifikanten Bewegungen (Sensor) ausgelöst</string>
+    <string name="doze_trigger_sigmotion_summary_off">Signifikante Bewegungsmeldungen des Sensors werden nicht als Auslösemechanismus verwendet</string>
+    <string name="doze_trigger_notification_title">Auslösung durch Benachrichtigungen</string>
+    <string name="doze_trigger_notification_summary_on">Das Pulsieren bei Inaktivität wird durch Benachrichtigungen ausgelöst</string>
+    <string name="doze_trigger_notification_summary_off">Benachrichtigungen werden nicht als Auslöser verwendet</string>
+    <string name="doze_schedule_title">Zeitintervall beim Pulsieren</string>
+    <string name="doze_schedule_summary_on">Vordefinierte Wiederholungsintervalle (normalerweise [1s,10s,30s,60s,120s]) werden bei Inaktivität verwendet (Standard)</string>
+    <string name="doze_schedule_summary_off">Benachrichtigung pulsiert nur einmal bei Inaktivität</string>
+    <string name="doze_brightness_title">Helligkeitsstufe beim Pulsieren</string>
+    <string name="doze_brightness_summary">Display-Helligkeitsstufe für das Pulsieren bei Inaktivität (% der max. zulässigen Helligkeit)</string>
+
+    <!-- Doze notification color invert -->
+    <string name="doze_notification_color_invert_title">Farbumkehr</string>
+    <string name="doze_notification_color_invert_summary_off">Farbe der Benachrichtigungen bei Inaktivitätsdisplay nicht umkehren. Für dunkle Themen benutzen.</string>
+    <string name="doze_notification_color_invert_summary_on">Farbe der Benachrichtigungen bei Inaktivitätsdisplay umkehren. Für helle Themen/Standardthema benutzen.</string>
+
+    <!-- On-The-Go -->
+    <string name="power_menu_onthego_title">On-The-Go Modus</string>
+    <string name="onthego_alpha_title">On-The-Go Transparenz</string>
+    <string name="onthego_alpha_summary">Transparenzwert für die On-The-Go Überlagerung.</string>
+
+    <!-- Less Notification sounds -->
+    <string name="notifications_category_title">Benachrichtigungen</string>
+    <string name="less_notification_sounds_title">Weniger häufige Benachrichtigungstöne</string>
+    <string name="less_notification_sounds_summary">Begrenze Benachrichtigungstöne pro App, so dass diese nur einmal pro Zeitspanne ertönen</string>
+    <string name="less_notification_sounds_default">Standardverhalten</string>
+    <string name="less_notification_sounds_3s">3 Sekunden</string>
+    <string name="less_notification_sounds_5s">5 Sekunden</string>
+    <string name="less_notification_sounds_10s">10 Sekunden</string>
+    <string name="less_notification_sounds_15s">15 Sekunden</string>
+    <string name="less_notification_sounds_30s">30 Sekunden</string>
+    <string name="less_notification_sounds_45s">45 Sekunden</string>
+    <string name="less_notification_sounds_1m">1 Minute</string>
+    <string name="less_notification_sounds_2m">2 Minuten</string>
+    <string name="less_notification_sounds_5m">5 Minuten</string>
+
+<!-- Battery notifications -->
+    <string name="battery_saver_notif_title">Benachrichtigung Energiesparmodus</string>
+    <string name="battery_saver_notif_summary">Zeigt eine Benachrichtigung beim Einschalten des Energiesparmodus</string>
+    <string name="battery_low_notif_title">Benachrichtigung bei schwachem Akku</string>
+    <string name="battery_low_notif_summary">Zeigt eine Benachrichtigung bei sehr niedrigem Akkustand</string>
+
+    <!--Status bar date -->
+    <string name="status_bar_date_title">Datum</string>
+    <string name="status_bar_date_none">Versteckt (Standard)</string>
+    <string name="status_bar_date_small">Klein</string>
+    <string name="status_bar_date_normal">Normal</string>
+    <string name="status_bar_date_format_title">Datumsformat</string>
+    <string name="status_bar_date_style">Datumsstil</string>
+    <string name="status_bar_date_style_normal">Normal</string>
+    <string name="status_bar_date_style_lowercase">Kleingeschrieben</string>
+    <string name="status_bar_date_style_uppercase">Großgeschrieben</string>
+    <string name="status_bar_date_format_custom">Eigenes Datumsformat (Java)</string>
+    <string name="status_bar_date_string_edittext_title">Muss ein spezielles Format haben, z.B. dd/MM/yy</string>
+    <string name="status_bar_date_string_edittext_summary">Eingabe</string>
+
+    <!-- Status bar - Clock -->
+    <string name="status_bar_clock_category">Uhrzeit</string>
+    <string name="clock_color_switch_title">Farbe An/Aus</string>
+    <string name="clock_color_title">Farbe</string>
+    <string name="status_bar_clock_style_reset">Farben zurücksetzen</string>
+    <string name="status_bar_clock_style_reset_message">Farbe der Uhrzeit zurücksetzen?</string>
+    <string name="clock_font_style_title">Schriftart</string>
+    <string name="clock_font_normal">Normal</string>
+    <string name="clock_font_italic">Kursiv</string>
+    <string name="clock_font_bold">Fett</string>
+    <string name="clock_font_bold_italic">Fett &amp; kursiv</string>
+    <string name="clock_font_light">Leicht</string>
+    <string name="clock_font_light_italic">Leicht &amp; kursiv</string>
+    <string name="clock_font_thin">Dünn</string>
+    <string name="clock_font_thin_italic">Dünn &amp; kursiv</string>
+    <string name="clock_font_condensed">Gestaucht</string>
+    <string name="clock_font_condensed_italic">Gestaucht &amp; kursiv</string>
+    <string name="clock_font_condensed_light">Gestaucht &amp; leicht</string>
+    <string name="clock_font_condensed_light_italic">Gestaucht, leicht, kursiv</string>
+    <string name="clock_font_condensed_bold">Gestaucht &amp; fett</string>
+    <string name="clock_font_condensed_bold_italic">Gestaucht, fett, kursiv</string>
+    <string name="clock_font_medium">Mittel</string>
+    <string name="clock_font_medium_italic">Mittel &amp; kursiv</string>
+    <string name="clock_font_black">Schwarz</string>
+    <string name="clock_font_black_italic">Schwarz &amp; kursiv</string>
+    <string name="clock_font_dancingscript">DancingScript</string>
+    <string name="clock_font_dancingscript_bold">DancingScript fett</string>
+    <string name="clock_font_comingsoon">ComingSoon</string>
+    <string name="clock_font_notoserif">NotoSerif Normal</string>
+    <string name="clock_font_notoserif_italic">NotoSerif kursiv</string>
+    <string name="clock_font_notoserif_bold">NotoSerif fett</string>
+    <string name="clock_font_notoserif_bold_italic">NotoSerif fett &amp; kursiv</string>
+    <string name="clock_font_size_title">Schriftgröße</string>
+    <string name="status_bar_show_clock_second_title">Sekundenanzeige</string>
+    <string name="clock_font_size_4">4</string>
+    <string name="clock_font_size_5">5</string>
+    <string name="clock_font_size_6">6</string>
+    <string name="clock_font_size_7">7</string>
+    <string name="clock_font_size_8">8</string>
+    <string name="clock_font_size_9">9</string>
+    <string name="clock_font_size_10">10</string>
+    <string name="clock_font_size_11">11</string>
+    <string name="clock_font_size_12">12</string>
+    <string name="clock_font_size_13">13</string>
+    <string name="clock_font_size_14">14</string>
+    <string name="clock_font_size_15">15</string>
+    <string name="clock_font_size_16">16</string>
+    <string name="clock_font_size_17">17</string>
+    <string name="clock_font_size_18">18</string>
+    <string name="clock_font_size_19">19</string>
+    <string name="clock_font_size_20">20</string>
+    <string name="clock_font_size_21">21</string>
+    <string name="clock_font_size_22">22</string>
+    <string name="clock_font_size_23">23</string>
+
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Schnelles Entsperren</string>
+    <string name="unlock_quick_unlock_control_summary">Automatisch Entsperren, wenn PIN oder Passwort korrekt eingegeben wurden</string>
+
+    <!-- Keyboard and Input ASS methods  -->
+    <string name="title_keyboard_input">Erweiterte Optionen</string>
+    <string name="disable_fullscreen_keyboard_title">Deaktiviere Vollbild-Tastatur</string>
+    <string name="disable_fullscreen_keyboard_summary">Im Querformat wird die Tastatur niemals das ganze Display einnehmen</string>
+    <string name="keyboard_rotation_toggle_title">Automatische Tastatur-Rotation</string>
+    <string name="keyboard_rotation_toggle_summary">Erzwinge die Auto-Rotation, wenn die Tastatur dargestellt wird</string>
+    <string name="keyboard_rotation_timeout_title">Timeout der Auto-Rotation</string>
+    <string name="keyboard_rotation_timeout_summary">Deaktiviert den Sensor für die Auto-Rotation <xliff:g id="rotate_timeout">%1$s</xliff:g> Sekunden nachdem die Tastatur nicht mehr angezeigt wird</string>
+    <string name="keyboard_rotation_dialog">Diese Option erzwingt temporär die Auto-Rotation, wenn die Tastatur angezeigt wird. Sie funktioniert nicht, wenn die Auto-Rotation bereits aktiviert ist.</string>
+    <string name="show_enter_key_title">Zeige Eingabe-Taste</string>
+    <string name="show_enter_key_summary">Erzwingt die Anzeige der Eingabe-Taste an Stelle der Emoji-Taste</string>
+
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Statistiken zurücksetzen</string>
+    <string name="battery_stats_message">Die Statistiken des Akku-Verbrauchs werden zurückgesetzt</string>
+    <string name="ok_string">Ok</string>
+
+    <!-- Slim Recent App Sidebar  -->
+    <string name="recent_panel_category">Slim Recents</string>
+    <string name="recent_app_sidebar_title">App-Seitenleiste</string>
+    <string name="recent_app_sidebar_summary">Zeige App-Verknüpfungen auf der anderen Seite</string>
+    <string name="use_recent_app_sidebar">App-Seitenleiste aktivieren</string>
+    <string name="recent_app_sidebar_style_title">Stil der Seitenleiste</string>
+    <string name="recent_app_sidebar_style_summary">Ändere den Stil der App-Seitenleiste</string>
+    <string name="recent_app_sidebar_hide_labels_title">Beschriftung der Symbole ausblenden</string>
+    <string name="recent_app_sidebar_label_color_title">Farbe des Etiketts</string>
+    <string name="recent_app_sidebar_bg_color_title">Hintergrundfarbe</string>
+    <string name="recent_app_sidebar_scale_title">Größe</string>
+    <string name="recent_app_sidebar_open_simultaneously_title">Gleichzeitig mit dem Verlauf öffnen</string>
+    <string name="recent_app_sidebar_open_simultaneously_summary">Deaktivieren, um die Verzögerung beim Öffnen des Verlaufs zu reduzieren</string>
+
+    <!-- Wakelock blocker -->
+    <string name="wakelock_blocker_title">Wakelock Blockierer</string>
+    <string name="wakelock_blocker_summary">Blockiert System-Wakelocks</string>
+    <string name="wakelock_blocker_save">Speichern</string>
+    <string name="wakelock_list_header">Verfügbare Wakelocks</string>
+    <string name="wakelock_blocker_reload">Neu Laden</string>
+    <string name="wakelock_blocker_warning_title">Mit Vorsicht fortfahren</string>
+    <string name="wakelock_blocker_warning">Das Blockieren von Wakelocks kann zu Instabilität, Abstürzen und Datenverlust führen</string>
+
+    <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
+    <string name="show_cpu_info">Zeige CPU-Info</string>
+    <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
+    <string name="show_cpu_info_summary">Display-Overlay mit Echtzeit-Infos der CPU</string>
+
+    <!-- Snackbar action button -->
+    <string name="dev_settings_action_button">Einstellungen</string>
+
+    <!-- Dashboard settings -->
+    <string name="dashboard_category">Einstellungen der Übersicht</string>
+    <string name="dashboard_columns_title">Spaltenanzahl der Übersicht</string>
+    <string name="dashboard_columns_summary">Wechselt die Spaltenanzahl in der Übersicht der Einstellungen</string>
+    <string name="dashboard_columns_dialog_title">Wähle Spaltenanzahl</string>
+    <string name="dashboard_columns_one">Eine</string>
+    <string name="dashboard_columns_two">Zwei</string>
+    <string name="dashboard_columns_three">Drei</string>
+    <string name="dashboard_tileview_double_lines_title">Zeilenanzahl der Überschriften</string>
+    <string name="dashboard_tileview_double_lines_summary">Titel der Einstellungen in der Übersicht 2-zeilig anzeigen</string>
+    <string name="dashboard_tileview_dividers_title">Trennlinien in der Übersicht</string>
+    <string name="dashboard_tileview_dividers_summary">Blendet die Trennlinien zwischen Menüpunkten der Übersicht aus</string>
+
+    <!-- Optional Dashboard Switches -->
+    <string name="dashboard_switches_title">Schalter in der Übersicht</string>
+    <string name="dashboard_switches_off">Schalter Aus</string>
+    <string name="dashboard_switches_on">Schalter An</string>
+    <string name="dashboard_switches_summary">Ändert die Anzeige der Schalter in der Übersicht</string>
+    <string name="dashboard_switches_dialog_title">Wähle die Anzeigeoption</string>
+
+    <!-- Selinux Switch -->
+    <string name="selinux_switch_title">SELinux-Schalter Optionen</string>
+    <string name="selinux_switch_summary">SELinux sind verschiedene Kernel-Modifikationen und \"user-space\" Werkzeuge. Eine Änderung des Modus kann unerwartetes Telefonverhalten auslösen. Benutzung auf eigenes Risiko!</string>
+    <string name="selinux_title">SELinux-Modus</string>
+    <string name="selinux_permissive_title">Moderat</string>
+    <string name="selinux_enforcing_title">Strikt</string>
+    <string name="selinux_permissive_toast_title">SELinux-Modus auf \"Moderat\" gesetzt!</string>
+
+    <!-- Navbar buttons rotating icons -->
+    <string name="nav_buttons_rotation_title">Animation für Symbolrotation</string>
+    <string name="nav_buttons_rotation_summary">Aktivieren, damit Symbole bei Displaydrehung rotieren oder die Navigationsleiste neugezeichnet wird.</string>
+
+    <!-- Date position -->
+    <string name="clock_date_position">Datumsposition</string>
+    <string name="clock_date_right">Rechts der Uhrzeit</string>
+    <string name="clock_date_left">Links der Uhrzeit</string>
+
+    <!-- The volume key answer -->
+    <string name="volume_answer_call_title">Gesprächsannahme mit Lautstärketaste</string>
+    <string name="volume_answer_call_summary">Gespräche mit \"Lauter\"-Taste annehmen</string>
+
+    <!-- Nfc settings -->
+    <string name="nfc_polling_mode_title">NFC Übertragungsmodus</string>
+    <string name="nfc_polling_mode_screen_off">Bildschirm aus</string>
+    <string name="nfc_polling_mode_screen_locked">Bildschirm an und gesperrt</string>
+    <string name="nfc_polling_mode_screen_unlocked">Bildschirm an und entsperrt (Standard)</string>
+
+    <!-- Nfc sound mode -->
+    <string name="nfc_sound_mode_title">Ton bei NFC Verbindung</string>
+    <string name="nfc_sound_mode_default">Ton</string>
+    <string name="nfc_sound_mode_vibration">Vibration</string>
+    <string name="nfc_sound_mode_mute">Stumm</string>
+
+    <!-- Power menu torch -->
+    <string name="power_menu_torch_title">Taschenlampe</string>
+
+    <string name="aicp_navbar_settings">DU Navigationsleiste</string>
+
+    <!-- Navigation Bar -->
+    <string name="navbar_interface_title">Schnittstelle</string>
+    <string name="navbar_size">Größe der Leiste</string>
+    <string name="navbar_mode">Navigationsmodus</string>
+    <string name="navbar_visibility">Navigationsleiste aktivieren</string>
+    <string name="navigationbar_settings_title">Navigation</string>
+    <string name="aosp_navigation_bar">Navigationsleiste</string>
+    <string name="aosp_navigation_bar_settings">Einstellungen der Navigationsleiste</string>
+    <string name="navigationbar_settings_summary">Stil und Verhalten für die Navigation anpassen</string>
+    <string name="navbar_general_title">Weitere Einstellungen</string>
+    <string name="navigation_bar_left_title">Linkshänder-Modus</string>
+    <string name="navigation_bar_left_summary">Platziert die Navigationsleiste auf der linken Bildschirmseite, wenn das Gerät waagerecht gehalten wird</string>
+    <string name="info_pref_note_title">Anmerkung</string>
+    <string name="smartbar_interface">SmartBar</string>
+    <string name="icon_pack_picker_dialog_title">Symbolpakete</string>
+    <string name="navigation_bar_left_title">Modus für Linkshänder</string>
+    <string name="navigation_bar_left_summary">NUR einschalten, wenn es gebraucht wird. Pulse und Designanpassungen fallen dann weg.</string>
+
+    <!-- U-Touch -->
+    <string name="utouch_settings_title">U-Touch</string>
+    <string name="utouch_settings_left_swipe">Nach links wischen</string>
+    <string name="utouch_settings_right_swipe">Nach rechts wischen</string>
+    <string name="utouch_settings_home_double_press">Doppelt drücken</string>
+    <string name="utouch_settings_back_long_tap">Lange antippen</string>
+    <string name="utouch_settings_info_title">Info</string>
+    <string name="utouch_settings_info_summary">Manchmal ist ein neustart nötig, dass die Einstellungen aktiv werden. \n Von mir, für euch - be_mler_</string>
+
+    <!-- Actions dialog and default task values set in ActionPreference xml-->
+    <string name="choose_action_title">Aktion wählen</string>
+    <string name="action_entry_default_action">Standard Einstellungen</string>
+    <string name="action_entry_select_app">Anwendung auswählen</string>
+    <string name="action_entry_custom_action">Eigene Aktion wählen</string>
+    <string name="action_value_default_action">action_default</string>
+    <string name="action_value_select_app">action_app</string>
+    <string name="action_value_custom_action">action_custom</string>
+
+    <string name="action_value_back">task_back</string>
+    <string name="action_value_home">task_home</string>
+    <string name="action_value_search_assist">task_assist</string>
+    <string name="action_value_recent_apps">task_recents</string>
+    <string name="action_value_voice_search">task_voice_search</string>
+    <string name="action_value_menu">task_menu</string>
+
+    <!-- Fling -->
+    <string name="fling_settings">Fling Einstellungen</string>
+    <string name="fling_interface">Fling Gesten-Schnittstelle</string>
+    <string name="fling_enable_title">Fling aktivieren</string>
+    <string name="fling_back_home_policy">Die Funktionen Zurück und \"Home\" werden immer benötigt. Um die Zuordnung von Zurück und \"Home\" zu ändern, bitte zuerst die gewünschte Zuordnung setzen</string>
+    <string name="fling_split_bar_policy">Wenn nur eine Aktion für Rechts oder Links zugeordnet wird, gilt die Aktion für die gesamte Leiste</string>
+    <string name="fling_def_summary">Keine Aktion gesetzt</string>
+    <string name="fling_swipe_actions">Wisch-Gesten</string>
+    <string name="fling_tap_actions">Tipp-Gesten</string>
+    <string name="fling_short_swipe_right">Kurzes Wischen nach rechts</string>
+    <string name="fling_short_swipe_left">Kurzes Wischen nach links</string>
+    <string name="fling_long_swipe_right">Langes Wischen nach rechts</string>
+    <string name="fling_long_swipe_left">Langes Wischen nach links</string>
+    <string name="fling_right_up_swipe">Nach oben-rechts wischen</string>
+    <string name="fling_left_up_swipe">Nach oben-links wischen</string>
+    <string name="fling_single_tap">Einmal rechts Tippen</string>
+    <string name="fling_double_tap">Zweimal rechts Tippen</string>
+    <string name="fling_long_press">Lange rechts Drücken</string>
+    <string name="fling_single_left_tap">Einmal links Tippen</string>
+    <string name="fling_double_left_tap">Zweimal links Tippen</string>
+    <string name="fling_long_left_press">Lange links Drücken</string>
+    <string name="long_swipe_portrait_title">Hochformat</string>
+    <string name="long_swipe_landscape_title">Querformat</string>
+    <string name="right_swipe_title">Nach rechts Wischen</string>
+    <string name="left_swipe_title">Nach links Wischen</string>
+    <string name="up_swipe_title">Nach oben Wischen</string>
+    <string name="down_swipe_title">Nach unten Wischen</string>
+    <string name="long_swipe_reset">Zurücksetzen</string>
+    <string name="fling_advanced">Weitere Einstellungen</string>
+    <string name="fling_long_swipe_title">Schwellenwert für Langes Wischen</string>
+    <string name="fling_long_swipe_summary">Feineinstellung für Langes Wischen basierend auf der prozentualen Breite und Höhe der Fling Schnittstelle</string>
+    <string name="fling_trails_enable_title">Spur für Gesten aktivieren</string>
+    <string name="fling_trails_enable_summary">Zeigt eine Spur bei Wisch-Gesten</string>
+    <string name="fling_trails_color_title">Farbe der Spur</string>
+    <string name="fling_trails_width_title">Breite der Spur</string>
+    <string name="fling_appearance">Darstellung</string>
+    <string name="fling_show_logo_title">Zeige Fling-Logo</string>
+    <string name="fling_animate_logo_title">Logo animieren</string>
+    <string name="fling_animate_logo_summary">Das Logo wird bei Berührung animiert</string>
+    <string name="fling_logo_color">Farbe des Logos</string>
+    <string name="fling_logo_custom_logo_pick_title">Eigenes Symbol als Logo</string>
+    <string name="fling_logo_custom_logo_image_pick_title">Eigenes Bild als Logo</string>
+    <string name="fling_logo_custom_logo_reset_title">Symbol des Logos zurücksetzen</string>
+    <string name="fling_show_ripple_title">Zeige Strudel-Effekt</string>
+    <string name="fling_show_ripple_summary">Strudel-Effekt bei Berührung</string>
+    <string name="fling_ripple_color">Farbe des Strudels</string>
+    <string name="fling_longpress_timeout_label_left">Weniger Verzögerung</string>
+    <string name="fling_longpress_timeout_label_right">Mehr Verzögerung</string>
+    <string name="fling_longpress_title">Verzögerung für Langes Drücken</string>
+    <string name="fling_longpress_summary">Verzögerung bis zur Ausführung eines \"langen Drucks\" verlängern oder verkürzen</string>
+
+    <!-- Pulse navigation bar music visualizer -->
+    <string name="pulse_help_policy_notice_title">Über Pulse</string>
+    <string name="pulse_help_policy_notice_summary">\"Pulse\" ist eine brilliante Grafik-Visualisierung für Audio in der Navigationsleiste, wenn Musik abgespielt wird. \"Pulse\" arbeitet leider nicht mit allen Audioquellen zusammen, wenn über die Lautsprecher Musik abgespielt wird</string>
+    <string name="pulse_settings">Pulse</string>
+    <string name="pulse_settings_summary">Grafik-Equalizer in der Navigationsleiste</string>
+    <string name="fling_show_pulse_title">Pulse zeigen</string>
+    <string name="fling_show_pulse_summary">Zeigt die Visualisierung in der Navigationsleiste an</string>
+    <string name="pulse_render_mode_title">Darstellungsmodus</string>
+    <string name="pulse_render_mode_fading_bars">Verblassende Blöcke</string>
+    <string name="pulse_render_mode_solid_lines">Durchgehende Balken</string>
+    <string name="fling_pulse_color">Farbe für Pulse</string>
+    <string name="eos_fling_lavalamp_title">Lavalampe einschalten</string>
+    <string name="eos_fling_lavalamp_summary">\"Pulse\" nutzt eine Lavalampen-artige Farbmischung bei der Darstellung</string>
+    <string name="pulse_advanced_category">Erweitert</string>
+    <string name="pulse_legacy_mode_advanced_category">Einstellungen für verblassende Blöcke</string>
+    <string name="pulse_custom_fudge_factor">Reaktionsgeschwindigkeit</string>
+    <string name="lavamp_solid_speed_title">Geschwindigkeit der Lavalampe</string>
+    <string name="pulse_solid_dimen_category">Einstellungen für durchgehende Balken</string>
+
+    <!-- Pulse config -->
+    <string name="pulse_custom_dimen">Breite der Balken</string>
+    <string name="pulse_custom_div">Abstand der Balken</string>
+    <string name="pulse_filled_block_size">Größe der Blöcke</string>
+    <string name="pulse_empty_block_size">Abstand der Blöcke</string>
+
+    <!-- Navbar height -->
+    <string name="navigation_bar_size_title">Größe der Leiste</string>
+    <string name="portrait_title">Höhe im Hochformat</string>
+    <string name="land_vert_title">Breite im Querformat</string>
+    <string name="land_hor_title">Höhe im Querformat</string>
+    <string name="positive_done">Fertig</string>
+
+    <!-- SmartBar -->
+    <string name="smartbar_category">SmartBar</string>
+    <string name="smartbar_settings_title">SmartBar Einstellungen</string>
+    <string name="smartbar_editor_title">Tasten-Editor ein-/ausschalten</string>
+    <string name="smartbar_editor_summary">Mittellang Drücken und Ziehen, um die Position zu ändern. Lange Drücken, um das Menü des Editors anzuzeigen. Die Tastenpositionen können verändert werden, während das Menü angezeigt wird.</string>
+    <string name="smartbar_context_menu_position_title">Position von Kontexttasten</string>
+    <string name="smartbar_context_menu_position_summary">Die Position von Kontexttasten, wie die Menü-Taste oder der Eingabemethoden-Auswahl, festlegen.</string>
+    <string name="smartbar_right">Rechts</string>
+    <string name="smartbar_left">Links</string>
+    <string name="smartbar_button_animation_title">Tasten-Animation bei Berührung</string>
+    <string name="smartbar_button_animation_summary">Animationstyp für die primären Tasten festlegen, wenn diese gedrückt werden</string>
+    <string name="smartbar_button_animation_ripple">Strudel</string>
+    <string name="smartbar_button_animation_spring">Hüpfen</string>
+    <string name="smartbar_factory_reset_title">Auf Grundeinstellung zurücksetzen</string>
+    <string name="smartbar_factory_reset_confirm">Sind Sie sicher, dass die SmartBar auf Standardwerte zurückgesetzt werden soll?</string>
+    <string name="smartbar_ime_action_title">Aktionen zur Eingabemethode</string>
+    <string name="smartbar_ime_action_summary">Festlegen, welche Tasten in der Leiste angezeigt werden, wenn die Tastatur aktiv ist</string>
+    <string name="smartbar_ime_action_none">Nichts</string>
+    <string name="smartbar_ime_action_arrows">Eingabe-Pfeile</string>
+    <string name="smartbar_ime_action_switcher">Tastatur-Umschalter</string>
+    <string name="smartbar_backup_current_config_title">Profil speichern</string>
+    <string name="smartbar_restore_config_title">Profil wiederherstellen</string>
+    <string name="smartbar_config_name_edit_dialog_title">SmartBar-Profilname</string>
+    <string name="smartbar_config_name_edit_dialog_message">Namen eingeben oder leer lassen</string>
+    <string name="smartbar_config_dialog_title">SmartBar-Profile</string>
+    <string name="smartbar_config_backup_success_toast">SmartBar-Profil erfolgreich gespeichert</string>
+    <string name="smartbar_config_restore_success_toast">SmartBar-Profil erfolgreich wiederhergestellt</string>
+    <string name="smartbar_config_backup_error_toast">Fehler beim Speichern des SmartBar-Profils</string>
+    <string name="smartbar_config_restore_error_toast">Fehler beim Wiederherstellen des SmartBar-Profils</string>
+
+    <!-- Heads Up Timeout -->
+    <string name="heads_up_time_out_title">Time-out</string>
+    <string name="heads_up_time_out_summary">Benachrichtigungen werden für <xliff:g id="number">%d</xliff:g> Sekunden angezeigt</string>
+    <string name="heads_up_time_out_2sec">2 Sekunden</string>
+    <string name="heads_up_time_out_4sec">4 Sekunden</string>
+    <string name="heads_up_time_out_5sec">5 Sekunden</string>
+    <string name="heads_up_time_out_6sec">6 Sekunden</string>
+    <string name="heads_up_time_out_8sec">8 Sekunden</string>
+    <string name="heads_up_time_out_10sec">10 Sekunden</string>
+
+    <!-- Heads Up Snooze -->
+    <string name="heads_up_snooze">Dösen von Pop-Ups</string>
+    <string name="heads_up_snooze_disabled_summary">Das Dösen ist deaktiviert</string>
+    <string name="heads_up_snooze_summary">Benachrichtigungen werden während der nächsten <xliff:g id="number">%d</xliff:g> Minuten für diese App NICHT angezeigt, wenn über die Benachrichtigung nach oben gewischt wurde.</string>
+    <string name="heads_up_snooze_1min">1 Minute</string>
+    <string name="heads_up_snooze_5min">5 Minuten</string>
+    <string name="heads_up_snooze_10min">10 Minuten</string>
+    <string name="heads_up_snooze_15min">15 Minuten</string>
+    <string name="heads_up_snooze_20min">20 Minuten</string>
+    <string name="heads_up_snooze_30min">30 Minuten</string>
+    <string name="heads_up_snooze_45min">45 Minuten</string>
+    <string name="heads_up_snooze_60min">60 Minuten</string>
+    <string name="force_headsup_title">Erzwinge Pop-up Benachrichtigungen</string>
+    <string name="force_headsup_summary">Erzwinge Pop-up Benachrichtigungen in allen Anwendungen</string>
+
+    <!-- DoubleTap2Wake Doze -->
+    <string name="doze_wakeup_doubletap_title">DT2W während Inaktivität</string>
+    <string name="doze_wakeup_doubletap_summary_on">Zweimal auf das Display tippen, damit das Gerät bei pulsierendem Bildschirm aus der Inaktivität erwacht</string>
+    <string name="doze_wakeup_doubletap_summary_off">Einmal auf das Display tippen, damit das Gerät bei pulsierendem Bildschirm aus der Inaktivität erwacht (Standard)</string>
+
+    <!-- Hide apps from recents -->
+    <string name="hide_from_recents_add_app">App hinzufügen</string>
+
+    <!-- Volume dialog timeout -->
+    <string name="volume_dialog_timeout_title">Ausblendzeit des Lautstärkedialogs</string>
+
+    <!-- Vendor version -->
+    <string name="vendor_version">Herstellerversion</string>
+    <string name="vendor_version_default">Unbekannt</string>
+
+    <!-- Application Settings -->
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+
+    <!-- Development Settings -->
+    <!-- ADB always notify -->
+    <string name="adb_always_notify">Beim Debuggen immer benachrichtigen</string>
+    <string name="adb_always_notify_summary">Immer eine Benachrichtigung beim Debuggen zeigen, auch wenn das Gerät nicht verbunden ist</string>
+
+    <!-- Navbar buttons transparency -->
+    <string name="navbar_buttons_alpha_title">Transparenz der Tasten</string>
+
+    <!-- Halo -->
+    <!-- Label for are-halo-notifications-allowed checkbox in app details [CHAR LIMIT=20] -->
+    <string name="app_halo_label_black">Für HALO verweigert</string>
+    <string name="app_halo_label_white">Für HALO zugelassen</string>
+
+    <!-- Halo blacklist -->
+    <string name="app_notification_halo_title">Zeige Benachrichtigungen in HALO</string>
+    <string name="app_notification_halo_summary">Zulassen, dass diese App Benachrichtigungen in HALO zeigt</string>
+    <string name="filter_notif_no_halo">Keine Benachrichtigungen in HALO</string>
+    <string name="notifications_four_items"><xliff:g id="notif_state" example="Priority">%1$s</xliff:g> / <xliff:g id="notif_state" example="Priority">%2$s</xliff:g> / <xliff:g id="notif_state" example="Priority">%3$s</xliff:g> / <xliff:g id="notif_state" example="Priority">%4$s</xliff:g></string>
+
+    <string name="toggle_package_install_overlay_check_title">Prüfung der Overlay-Berechtigung deaktivieren</string>
+    <string name="toggle_package_install_overlay_check_summary">WARNUNG\u003A Dies deaktiviert eine Sicherheitsüberprüfung zur Verhinderung von \"Tapjacking\"! Nur benutzen, wenn man die Konsequenzen versteht.</string>
+
+    <!-- Phone info shortcut -->
+    <string name="device_info_title">Telefon Detailinformationen</string>
+
+    <!--  About device screen, Hardware info -->
+    <string name="hardware_info">Hardware-Informationen</string>
+    <!--  About device Screen, hardware info, chipset -->
+    <string name="chipset_info">Chipsatz</string>
+    <!--  About device Screen, hardware info, rear camera -->
+    <string name="device_rear_camera">Hauptkamera (Rückseite)</string>
+    <!--  About device Screen, hardware info, front camera -->
+    <string name="device_front_camera">Frontkamera</string>
+    <!--  About device Screen, hardware info, screen res -->
+    <string name="device_screen_resolution">Bildschirmauflösung</string>
+    <!--  About device Screen, hardware info, GPU info -->
+    <string name="gpu_info">Graphik-Prozessor</string>
+    <!-- About device screen, Cpu info. -->
+    <string name="cpu_info">Haupt-Prozessor(en)</string>
+    <!-- About phone screen, Free memory info -->
+    <string name="mem_info">Arbeitsspeicher</string>
+
+    <!-- About phone screen, AICP device maintainer name -->
+    <string name="device_maintainer">Geräte-Maintainer</string>
+    <string name="device_maintainers">Geräte-Maintainer</string>
+
+    <!-- Status bar -->
+    <string name="smart_pulldown_title">Intelligentes Öffnen</string>
+    <string name="smart_pulldown_summary">Öffnet die Schnelleinstellungen sofort, wenn %1$s Benachrichtigungen vorhanden sind</string>
+    <string name="smart_pulldown_off">Aus</string>
+    <string name="smart_pulldown_dismissable">keine löschbaren</string>
+    <string name="smart_pulldown_persistent">keine andauernden</string>
+    <string name="smart_pulldown_all">keine löschbaren oder andauernden</string>
+
+    <!-- Heads up -->
+    <string name="add_heads_up_package">App hinzufügen</string>
+    <string name="add_heads_up_dnd_summary">Zeige keine Pop-up-Benachrichtigungen in diesen Anwendungen</string>
+    <string name="add_heads_up_blacklist_summary">Zeige keine Pop-up-Benachrichtigungen von diesen Anwendungen</string>
+    <string name="add_heads_up_whitelist_summary">Zeige alle Benachrichtigungen von diesen Anwendungen als Pop-up</string>
+    <string name="heads_up_dnd_title">\"Nicht stören\"</string>
+    <string name="heads_up_blacklist_title">Schwarze Liste</string>
+    <string name="heads_up_whitelist_title">Weiße Liste</string>
+    <string name="heads_up_contains_key">Die Anwendung wurde bereits zur Liste hinzugefügt</string>
+
+</resources>

@@ -1,7 +1,9 @@
 My U-Touch implementation used in my AICP builds for ZUK Z2 Pro
 
 1) Checkout at your android root folder
+
 2) Install rcs
+
 3) run ./merge_utouch.sh from this folder
 
 
